@@ -41,12 +41,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea reiciendis
-        optio quam ex totam fuga excepturi. Odio, unde totam? Nihil enim minus
-        repudiandae repellat tempore fugiat unde! Voluptatibus, illo voluptatem.
-        Atque in voluptatum reiciendis dicta quia accusantium, quisquam
-        laboriosam, ipsam sapiente, provident quibusdam corrupti unde aliquam
-        beatae illum nesciunt animi neque ipsum.
+        A highly skilled and experienced full-stack web developer with a proven
+        track record of success. Expertise in front-end and back-end
+        technologies, including JavaScript, Node.js, React, Next Js, MySql, and
+        etc. Proven ability to deliver high-quality, user-friendly web products.
+        Passionate about creating innovative and user-centered web experiences.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

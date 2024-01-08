@@ -1,7 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import {
+  ComputersCanvas,
+  EarthCanvas,
+  PurpleCanvas,
+  StarsCanvas,
+} from "./canvas";
 
 const Hero = () => {
   return (
@@ -19,12 +24,13 @@ const Hero = () => {
             Hi, i'm <span className="text-[#915eff]">Arya</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D website, <br className="sm:hidden block" />
-            and fullstack web applications
+            Im a Fullstack Web Developer, <br className="sm:hidden block" />
+            and Content Creator
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+
+      <PurpleCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
