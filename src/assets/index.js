@@ -14,12 +14,17 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import nodejs from "./tech/node.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import next from "./tech/next.png";
+import php from "./tech/php.png";
+import laravel from "./tech/laravel.png";
+import codeigniter from "./tech/codeigniter.png";
+import postgre from "./tech/postgresql.png";
 
 import pijarcamp from "./company/pijar.png";
 import bbn from "./company/BBN.jpg";
@@ -50,6 +55,11 @@ export {
   tailwind,
   typescript,
   threejs,
+  next,
+  php,
+  laravel,
+  codeigniter,
+  postgre,
   pijarcamp,
   bbn,
   carrent,

@@ -15,6 +15,11 @@ import {
   git,
   figma,
   docker,
+  next,
+  php,
+  laravel,
+  codeigniter,
+  postgre,
   bbn,
   pijarcamp,
   carrent,
@@ -59,16 +64,12 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "php",
+    icon: php,
   },
   {
     name: "TypeScript",
@@ -91,24 +92,24 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "next",
+    icon: next,
+  },
+  {
+    name: "laravel",
+    icon: laravel,
+  },
+  {
+    name: "codeigniter",
+    icon: codeigniter,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "Postgre",
+    icon: postgre,
   },
 ];
 
