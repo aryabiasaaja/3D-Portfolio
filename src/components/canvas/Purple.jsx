@@ -8,8 +8,8 @@ const Purple = () => {
   return (
     <primitive
       object={purple.scene}
-      scale={1.7}
-      position-y={-0.9}
+      scale={1.3}
+      position-y={-1.5}
       rotation-y={0}
     />
   );

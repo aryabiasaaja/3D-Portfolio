@@ -170,20 +170,20 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Mama Recipe",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web-based platform that allows users to search, post, and save recipes with an attractive and responsive design.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "express",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "postgre",
         color: "pink-text-gradient",
       },
     ],
@@ -191,20 +191,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Peworld",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Peworld is an innovative web platform that allows the company to search for their best candidates.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "express",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "postgre",
         color: "pink-text-gradient",
       },
     ],
@@ -212,20 +212,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Ankasa",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Ankasa is a website platform that enables users to effortlessly search and filter flight options to suit their preferences.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "postgre",
         color: "pink-text-gradient",
       },
     ],
