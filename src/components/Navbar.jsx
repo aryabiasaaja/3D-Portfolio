@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, linkedin } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -46,6 +46,15 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <li
+            className="flex items-center justify-center cursor-pointer"
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/aryajulianda", "_blank")
+            }
+            title="My Linkedin Acount"
+          >
+            <img src={linkedin} alt="linkedin" className="w-7" />
+          </li>
         </ul>
 
         <div className="flex items-center justify-end flex-1 sm:hidden">

@@ -33,6 +33,8 @@ import recipe from "./projects/recipe.png";
 import ankasa from "./projects/ankasa.png";
 import peworld from "./projects/peworld.png";
 
+import linkedin from "./linkedin.png";
+
 export {
   logo,
   backend,
@@ -65,4 +67,5 @@ export {
   recipe,
   ankasa,
   peworld,
+  linkedin,
 };
