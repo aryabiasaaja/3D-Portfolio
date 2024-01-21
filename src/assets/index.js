@@ -29,9 +29,9 @@ import postgre from "./tech/postgresql.png";
 import pijarcamp from "./company/pijar.png";
 import bbn from "./company/BBN.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import recipe from "./projects/recipe.png";
+import ankasa from "./projects/ankasa.png";
+import peworld from "./projects/peworld.png";
 
 export {
   logo,
@@ -62,7 +62,7 @@ export {
   postgre,
   pijarcamp,
   bbn,
-  carrent,
-  jobit,
-  tripguide,
+  recipe,
+  ankasa,
+  peworld,
 };

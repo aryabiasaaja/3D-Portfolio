@@ -13,7 +13,7 @@ const Navbar = () => {
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
     >
       {" "}
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+      <div className="flex items-center justify-between w-full mx-auto max-w-7xl">
         <Link
           to={"/"}
           className="flex items-center gap-2"
@@ -27,14 +27,14 @@ const Navbar = () => {
             alt="logo"
             width={36}
             height={36}
-            className="w-9 h-9 object-contain"
+            className="object-contain w-9 h-9"
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Arya &nbsp;
-            <span className="sm:block hidden">// Maestro of Frontend Dev</span>
+            <span className="hidden sm:block">// Fullstack Web Developer</span>
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="flex-row hidden gap-10 list-none sm:flex">
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -48,11 +48,11 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="flex items-center justify-end flex-1 sm:hidden">
           <img
             src={!toggle ? menu : close}
             alt="menu"
-            className="w-7 h-7 object-contain cursor-pointer"
+            className="object-contain cursor-pointer w-7 h-7"
             onClick={() => setToggle(!toggle)}
           />
           <div
@@ -60,7 +60,7 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
-            <ul className="list-none flex flex-col justify-end items-start gap-4">
+            <ul className="flex flex-col items-start justify-end gap-4 list-none">
               {navLinks.map((link) => (
                 <li
                   key={link.id}

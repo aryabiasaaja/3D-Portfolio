@@ -22,9 +22,9 @@ import {
   postgre,
   bbn,
   pijarcamp,
-  carrent,
-  jobit,
-  tripguide,
+  recipe,
+  ankasa,
+  peworld,
   threejs,
 } from "../assets";
 
@@ -45,7 +45,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
@@ -57,7 +57,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Content Creator",
+    title: "Fullstack Developer",
     icon: creator,
   },
 ];
@@ -187,8 +187,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: recipe,
+    source_code_link: "https://github.com/AryaJulianda/RECIPE-FE",
+    demo_link: "https://mama-recipe.pages.dev/",
   },
   {
     name: "Peworld",
@@ -208,8 +209,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: peworld,
+    source_code_link: "https://github.com/maulanazn/hirejob-fe",
+    demo_link: "https://hirejob.pages.dev/",
   },
   {
     name: "Ankasa",
@@ -229,8 +231,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ankasa,
+    source_code_link: "https://github.com/AryaJulianda/ANKASA-FE",
+    demo_link: "https://ankasa-next-js.vercel.app/",
   },
 ];
 
