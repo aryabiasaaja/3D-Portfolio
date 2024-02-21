@@ -21,6 +21,10 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      gradientColorStopPositions: {
+        2: '2%',
+        98: '98%'
+      }
     },
   },
   plugins: [],

@@ -6,19 +6,15 @@ import {
   Tech,
   Experience,
   Works,
-  Feedbacks,
   Contact,
-  EarthCanvas,
-  BallCanvas,
-  ComputersCanvas,
   StarsCanvas,
 } from "./components";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative bg-primary z-0">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+      <div className="relative bg-gradient-to-br from-blue-900 via-slate-900 to-blue-900 z-0">
+        <div className="bg-hero-pattern! bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
         </div>
