@@ -9,11 +9,13 @@ import {
   Contact,
   StarsCanvas,
 } from "./components";
+import backgroundMusic from "./assets/bgm.mp3";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative bg-gradient-to-br from-blue-900 via-slate-900 to-blue-900 z-0">
+      <audio src={backgroundMusic} autoPlay="true" />
+      <div className="relative z-0 bg-gradient-to-br from-blue-900 via-slate-900 to-indigo-900">
         <div className="bg-hero-pattern! bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />

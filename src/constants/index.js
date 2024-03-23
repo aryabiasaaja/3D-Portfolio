@@ -26,6 +26,7 @@ import {
   ankasa,
   peworld,
   threejs,
+  discord,
 } from "../assets";
 
 export const navLinks = [
@@ -115,6 +116,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Fullstack Web Developer",
+    company_name: "PT Bukit Baja Nusantara",
+    icon: bbn,
+    iconBg: "#fff",
+    date: "Nov 2023 - Now",
+    points: [
+      "Developing and maintaining web company profile & customer portal using Codeigniter and other related technologies.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Build CMMS (Computerized Maintenance Management System) using Codeigniter and other related technologies",
+      "Implementing responsive design and ensuring cross-browser compatibility",
+    ],
+  },
+  {
     title: "Bootcamp Fullstack Web & Mobile Developer",
     company_name: "Pijar Camp",
     icon: pijarcamp,
@@ -125,18 +139,6 @@ const experiences = [
       "Built mobile applications using React Native and Android development methodologies",
       "Built databases using PostgreSQL, in order to guarantee the integrity and efficiency of data",
       "Maintain teamwork and collaboration skills to work effectively in a cross-functional environment",
-    ],
-  },
-  {
-    title: "Junior Web Programmer",
-    company_name: "PT Bukit Baja Nusantara",
-    icon: bbn,
-    iconBg: "#fff",
-    date: "Nov 2023 - Now",
-    points: [
-      "Developing and maintaining web company profile & customer portal using Codeigniter and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
@@ -169,6 +171,38 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Discord Clone",
+    description:
+      "Fullstack and real-time discord clone. With the feature servers, channels, video calls, audio calls, editing and deleting messages as well as member roles.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mysql",
+        color:
+          "bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent",
+      },
+      {
+        name: "socket.io",
+        color:
+          "bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent",
+      },
+    ],
+    image: discord,
+    source_code_link: "https://github.com/AryaJulianda/discord-clone",
+    demo_link: "https://my-discord-clone.up.railway.app/",
+  },
   {
     name: "Mama Recipe",
     description:

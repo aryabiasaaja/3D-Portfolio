@@ -32,6 +32,7 @@ import bbn from "./company/BBN.jpg";
 import recipe from "./projects/recipe.png";
 import ankasa from "./projects/ankasa.png";
 import peworld from "./projects/peworld.png";
+import discord from "./projects/discord-clone.png";
 
 import linkedin from "./linkedin.png";
 
@@ -68,4 +69,5 @@ export {
   ankasa,
   peworld,
   linkedin,
+  discord,
 };
